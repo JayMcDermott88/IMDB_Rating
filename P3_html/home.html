@@ -5,50 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IBM Attrition Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <div id="title">
-        <h1>IBM Employee Attrition</h1>
-        <h3>A Machine Learning Model</h3>
+    <div class="bg-dark">
+
+        <div id="title">
+            <h1 class ="text-center text-light">IBM Employee Attrition</h1>
+            <h3 class="text-center font-weight-light text-light">A Machine Learning Model</h3>
+        </div>
+
+        <br>
+
+        <div class="container mx-auto" id="links">
+            <div class="jumbotron text-center font-weight-bold h5 pl-0">
+                <a class="col-md-1 text-center" href="home.html">Home</a>
+                <a class="col-md-2 text-center"></a>
+                <a class="col-md-1 text-center" href="data.html">Data</a>
+                <a class="col-md-2 text-center"></a>
+                <a class="col-md-1 text-center" href="models.html">Models</a>
+                <a class="col-md-2 text-center"></a>
+                <a class="col-md-1 text-center" href="visuals.html">Visualizations</a>
+                <a class="col-md-2 text-center"></a>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h4 class="font-italic">From Investopedia:</h4>
+                <p>
+                    Attrition in business describes a gradual but deliberate 
+                    reduction in staff numbers that occurs as employees retire 
+                    or resign and are not replaced.This type of reduction in staff 
+                    is called a hiring freeze.
+
+                    It is one way a company can decrease labor costs without the 
+                    disruption of layoffs. Reducing staff by attrition naturally 
+                    is less devastating to company morale. However, it can still 
+                    have a negative impact on the remaining employees if it leads 
+                    to an increase in their workload. It also can limit promotional 
+                    opportunities and movement within the company, resulting in 
+                    an unhappier workplace or more attrition than was intended.
+                </p>
+
+                <hr>
+
+                <p>
+                    For our project, we have have applied machine learning models 
+                    to a dataset from IBM with the goal of using information on demographics, 
+                    company position, income, and wellness reporting to determine whether 
+                    or not an employee is likely to leave the company due to attrition.
+                </p>
+                    
+                <p>
+                    This is usefull for companies who are either trying to determine if a 
+                    hiring freeze will be an effective cost saving measure in the long term. 
+                    Alternatively, companies can use the prediction to better identify 
+                    employees who ma leave that they otherwise might wish to retain 
+                    in a hostile hiring environment. 
+                </p>
+
+                <p>
+                    To that end, we have also supplied visualizations made in Tableau 
+                    in order to better identify the employees most likely to fall to 
+                    attrition. We have also used the FeatureSelect python library to 
+                    determine the most important variables in predicting attrition.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
     </div>
 
-    <div id="pages">
-        <a href="home.html">Home</a>
-        <a href="data.html">Data</a>
-        <a href="models.html">Models</a>
-        <a href="visuals.html">Visualizations</a>
-    </div>
-
-    <br/>
-
-    <div id="description">
-        <h4>From Investopedia:</h4>
-        <p>
-            Attrition in business describes a gradual but deliberate 
-            reduction in staff numbers that occurs as employees retire 
-            or resign and are not replaced.This type of reduction in staff 
-            is called a hiring freeze.
-
-            It is one way a company can decrease labor costs without the 
-            disruption of layoffs. Reducing staff by attrition naturally 
-            is less devastating to company morale. However, it can still 
-            have a negative impact on the remaining employees if it leads 
-            to an increase in their workload. It also can limit promotional 
-            opportunities and movement within the company, resulting in 
-            an unhappier workplace or more attrition than was intended.
-        </p>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div id="models">
-        <h4>Example Graph:</h4>
-        <img src="/Users/christophersicking/Desktop/21_portfolio_ggplot2_ddensity_plot.png">
-    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
