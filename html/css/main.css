@@ -1,0 +1,86 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+    font-size: 1.3rem;
+}
+hr{
+}
+
+
+
+/* Navigation */
+.navigation{
+    background-color: #77C9D4;
+}
+.nav-link{
+}
+/* Carousel */
+.carousel-inner img{
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    text-shadow: 2px 2px 2px black;
+}
+/* Buttons */
+.btn{
+}
+.btn-primary{
+}
+/* Jumbotron */
+.jumbotron{
+    display: block; 
+    flex-direction: row-reverse;
+}
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-outline-secondary{
+
+}
+/* Footer */
+.photo{
+    padding: 20px; 
+    width: 100%;
+    height: auto;
+}
+/* Footer */
+.social{
+font-size: 1.8em;
+}
+.fa-envelope{
+    color:rgba(255, 255, 255, 0.604);
+}
+.fa-github{
+color: black;
+}
+.fa-twitter{
+color: #00aced;
+}
+.fa-linkedin{
+color:#007bb6; 
+}
+.footer{
+color: white; 
+}
+footer{
+background: #77C9D4;
+padding:20px; 
+margin-top: 20px;
+text-align: center;
+}
+
+.google_form{
+    display: block;
+    margin: auto;
+}
+/* Media Queries */
+@media(max-width: 900px){
+.carousel-caption{
+display:none;
+}
